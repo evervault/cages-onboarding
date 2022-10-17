@@ -8,7 +8,7 @@ You will also need an Evervault account. If you haven’t signed up yet, you can
 ## Setting up your local environment
 Before we can deploy our Cage, we’ll need to install the Evervault Cage CLI:
 
-`sh <(curl https://cage-build-assets.evervault.com/cli/install -sL)`
+`CAGE_CLI_FORCE_INSTALL=1 curl https://cage-build-assets.evervault.com/cli/install -sL | sh`
 
 Once the installation script has completed, you should have access to the ev-cage command.
 
