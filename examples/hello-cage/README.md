@@ -84,7 +84,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --header 'api-key: [EV-API-KEY]' \
   --data '{	
-	"b": "40",
-	"a": "10"
+	"b": "EVERVAULT ENCRYPTED STRING",
+	"a": "EVERVAULT ENCRYPTED STRING"
     }' -k
 ```
