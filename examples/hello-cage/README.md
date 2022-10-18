@@ -6,7 +6,7 @@ A simple node server that can be deployed into a Cage.
 
 ### Hello
 
-A simple endpoint that return a hello message and echoes any body passed into it back in the response. Any Evervault encrypted strings will be decrypted in the response to demonstrate automatic decryption within Cages.
+A simple endpoint that returns a hello message and echoes any body passed into it back in the response. Any Evervault encrypted strings will be decrypted in the response to demonstrate automatic decryption within Cages.
 
 ```bash
 curl --request GET \
