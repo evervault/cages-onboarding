@@ -76,7 +76,7 @@ curl --request POST \
     }' -k
 ```
 
-With encrypted number (Don't use this encrypted string, you will have to use a string encrypted with your own Evervault key. See encrypt endpoint):
+With encrypted number (You will have to use a string encrypted with your own Evervault key. See encrypt endpoint):
 
 ```bash
 curl --request POST \
