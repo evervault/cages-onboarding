@@ -48,7 +48,7 @@ curl --request POST \
 
 ### Decrypt
 
-An enpoint that decrypts any encrypted JSON body is passed into it with your evervault key. This is done through the crypto API available within the Cage when it's deployed.
+An endpoint that decrypts any encrypted JSON body is passed into it with your evervault key. This is done through the crypto API available within the Cage when it's deployed.
 
 ```bash
 curl --request POST \
