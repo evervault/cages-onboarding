@@ -1,0 +1,4 @@
+[submodule "examples/hello-cage"]
+	path = examples/hello-cage
+	url = https://github.com/evervault/hello-cage
+	branch = main

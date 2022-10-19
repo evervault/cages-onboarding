@@ -1,3 +1,15 @@
+# Cloning this repo
+
+To clone this repo, including its submodules, you can run `git clone git@github.com:evervault/nitro-cages-onboarding.git --recurse-submodules`
+
+Alternatively you can clone as normal, and then configure the submodule after:
+
+```
+git clone git@github.com:evervault/nitro-cages-onboarding.git
+git submodule init
+git submodule update
+```
+
 # evervault-cage-docs
 
 ## Quickstart
