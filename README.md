@@ -30,8 +30,8 @@ Now we can initialize your service locally into a Cage. This will reserve the Ca
 For our first Cage, we’ll enable some features which help us see what’s happening inside the enclave, namely: debug mode and network egress. To do that, we just need to run the following command:
 
 ```shell
-ev-cage init --name my-first-cage --debug --egress-enabled \
--f <PATH_TO_YOUR_DOCKERFILE> --generate-signing
+ev-cage init --name my-first-cage --debug --egress \
+-f <PATH_TO_YOUR_DOCKERFILE>
 ```
 
 This command will output a `cage.toml` file containing the configuration specified for your Cage. It should look something like this:
